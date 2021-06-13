@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(img/09.3-imagenes_integrador/header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+div.sitio-contenedor{
+    padding-top: 30px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 17px;
+    text-transform: capitalize;
+    font-family: -webkit-pictograph;
+}
+div.leyenda{
+    text-transform: capitalize;
+    font-family: -webkit-pictograph;
+    margin-top: 260px;
+    margin-bottom: 80px;
+    padding-top: 100px;
+    padding-left: 34px;
+    padding-right: 26px;
+    color: white;
+    height: 100%;
+    font-size: 30px;
+}
+h2{
+    padding-top: 20px;
+}
+main{
+    height: auto;
+    margin: 20px 200px;
+}
+div.primero{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3.tituloPrincipal{
+    text-align-last: center;
+    color: rgba(0, 0, 0, 0.9);
+    text-transform: capitalize;
+    font-family: -webkit-pictograph;
+    font-size: x-large;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+div.caja-primeras{
+    padding: 5px;
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
+img.iconos{
+    width: 25%;
+    margin: 5px;
+}
+img.iconoReloj{
+    width: 22%;
+}
+h3.tituloSecundario{
+    text-transform: uppercase;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+p{
+    font-size: small;
+}
+div.card-img{
+    margin: 0px 8px;
+    border:  1px solid #c6d3c3;
+    background-color: #e1f1dd;
+    
+}
+div.card{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div img.card-img-top{
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+h5.card-title{
+    text-align: left;
+    font-family: -webkit-pictograph;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: medium;
+    margin-bottom: 10px;
+}
+div p.card-leyenda{
+    font-family: -webkit-pictograph;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+}
+b{
+    color: olivedrab;
+    margin-top: 10px;
+}
+div.iconos-comodidades a{
+    color: black;
+    padding-right: 5px;
+    text-align: center;
+}
+div.iconos-comodidades{
+    text-align: center;
+    margin: 10px;
+}
+div.iconos-comodidades a img{
+    padding: 0px 10px;
+    width: 15%;
+}
+a.btn{
+    padding-right: 0px;
+}
+a.btn input{
+    width: -webkit-fill-available;
+    padding: 15px 75px;
+    background-color: chocolate;
+    color: white;
+    border: chocolate;
+    font-family: -webkit-pictograph;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a.btn-todas input{
+    width: -webkit-fill-available;
+    padding: 15px 40px;
+    background-color: olivedrab;
+    color: white;
+    border: olivedrab;
+    font-family: -webkit-pictograph;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+div.boton{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    place-content: flex-end;
+}
+a.btn-todas{
+    padding-right: 0px;
+}
+div.footer-img{
+    background-image: url(img/09.3-imagenes_integrador/encuentra.jpg);
+    background-size: cover;
+    height: 55vh;
+    padding: 110px 240px;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+div.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 50, 50);
+    height: 8vh;
+    padding: 15px 20px;
+    font-family: -webkit-pictograph;
+}
+footer nav{
+    margin-top: 0px;
+}
+div.footer-leyenda h3{
+    font-size: xx-large;
+    padding: 20px 20px;
+}
+div.footer-leyenda h4{
+    font-size: medium;
+    padding: 20px 20px;
+}
+div.footer-boton a.btn-footer-todas input{
+    padding: 15px 20px;
+    margin-left: 20px;
+    background-color: chocolate;
+    color: white;
+    border: chocolate;
+    font-family: -webkit-pictograph;
+    text-transform: uppercase;
+    font-weight: bold;
+}
